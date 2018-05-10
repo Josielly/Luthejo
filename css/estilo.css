@@ -1,0 +1,45 @@
+body{
+	background-image:url(../imagens/muito.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-cadastro{
+height:30px;
+margin-top: 0px;
+background-color:rgb(220, 168, 160);
+color:rgb(85, 31, 22);
+}
+
+.btn-cadastro: hover{
+background-color:rgb(134,52,13);
+color: white;
+}
+
+.formulario-login{
+	width: 250px;
+	background-color: rgba(224, 189, 12, 0);
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: 110px;
+	border-radius: 20px;
+	box-shadow:  0 0 30px 10px rgb(110, 45, 17);
+	color:rgb(131, 51, 18);
+}
+.meu-label{
+	color: white;
+}
+.h1-center{
+	text-align: center; /*centraliza o texto*/
+	background-color: rgba(219, 180, 172, 0.29); /*cor da faixa*/
+	color: rgb(131,51,18);/*cor da letra*/
+	padding: 20px;/**/
+	border-bottom-color: #d7a7a3;/**/
+	border-bottom-style: solid;/**/
+	margin-top: 0;/**/
+}
+
+.cadastro{
+	color: rgb(131,51,18);/*cor da letra*/
+	padding: 20px;/**/
+}
