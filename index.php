@@ -1,3 +1,21 @@
+<?php
+	if (isset($_POST['btn-enviar'])){
+		include_once("controller/LoginController.class.php");
+		$controle = new LoginController();
+
+		$msg=$controle->logar($_POST);
+	}else{
+		$msg = "";
+	}
+
+	if (isset($_POST['btn-cadastro'])){
+		include_once("controller/LoginController.class.php");
+		$controle = new LoginController();
+
+		$msg=$controle->cadastro($_POST);
+	}
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +31,10 @@
 			<button class="btn btn-default pull-right btn-cadastro" data-toggle="modal" data-target="#formCadastro">Cadastre-se</button> 
 			
 			<div class="formulario-login">	
-				<form method="" action="">
+				<form method="POST">
+					<?php
+						echo $msg;
+					?>
 					<div class="form-group">
 						<label for="login">Login</label>
 						<input type="text" name="login" id="login" placeholder="Digite o seu login" class="form-control"/>
