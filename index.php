@@ -1,15 +1,15 @@
 <?php
 	if (isset($_POST['btn-enviar'])){
-		include_once("controller/LoginController.class.php");
+		include_once("admin/controller/LoginController.class.php");
 		$controle = new LoginController();
 
-		$msg=$controle->logar($_POST);
+		$msg=$controle->loginCliente($_POST);
 	}else{
 		$msg = "";
 	}
 
 	if (isset($_POST['btn-cadastro'])){
-		include_once("controller/LoginController.class.php");
+		include_once("admin/controller/LoginController.class.php");
 		$controle = new LoginController();
 
 		$msg=$controle->cadastro($_POST);
@@ -22,7 +22,7 @@
 	<head>
 		<title>Login</title>
 		<link rel="stylesheet" 
-			href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+			href="admin/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/estilo.css" />
 	</head>
 	<body>

@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
+	<link href="css/seu-stylesheet.css" rel="stylesheet"/>
+	<script src="scripts/seu-script.js"></script>
+</head>
+<body>
+
+	...
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
+	<link href="css/seu-stylesheet.css" rel="stylesheet"/>
+	<script src="scripts/seu-script.js"></script>
+</head>
+
+	...
+ 
+</body>
+</html>
+
+body{ 
+     background-image: url('imagens-pedido.jpg');
+	 width: 800px; /*largura do elemento*/
+	 height: 500px; /*largura do elemento*/
+	 margin: 20px auto 20px auto; /*margem da pÃ¡gina*/
+}
+#menu{
+	display: block;
+}
+.btn-horario {
+    height: 30px;
+    margin-top: 0px;
+    background-color: rgb(220, 168, 160);
+    color: rgb(85, 31, 22);
+}
